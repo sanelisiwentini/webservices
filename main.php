@@ -1,7 +1,7 @@
 <?php
 
-$fullName = $_GET['fullName']; // get data sent from previous html form on index.php
-$email = $_GET['email'];  
+$name = $_GET['name']; // get data sent from previous html form on index.php
 
-	echo"Welcome $fullName";
+
+	echo"New Record Exists for: $name";
 ?>
