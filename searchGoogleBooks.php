@@ -5,7 +5,7 @@ function getGoogleBooks($title, $priceLimit)
 
 error_reporting(0);  // Turn off all errors, warnings and notices for easier debugging
 $safequery = urlencode($title);
-$resp = file_get_contents("https://www.googleapis.com/books/v1/volumes?q="."$safequery"."&filter=paid-ebooks&key=AIzaSyAbozwAwx2HObMIiVQ7sCzWolLLD3lNyPo");
+$resp = file_get_contents("https://www.googleapis.com/books/v1/volumes?q="."$safequery"."&filter=paid-ebooks&key=[YOUR_KEY_HERE]");
 
 $data = json_decode($resp, true);
 

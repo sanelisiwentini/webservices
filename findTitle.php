@@ -44,7 +44,7 @@ $priceLimit = $_GET['price'];
 $safequery = urlencode($query);  // Make the query URL-friendly
 
 // Load the call and capture the document returned by eBay API
-$resp = file_get_contents("https://www.googleapis.com/books/v1/volumes?q="."$safequery"."&key=AIzaSyAbozwAwx2HObMIiVQ7sCzWolLLD3lNyPo");
+$resp = file_get_contents("https://www.googleapis.com/books/v1/volumes?q="."$safequery"."&key=[YOUR_KEY_HERE]");
 
 
 
