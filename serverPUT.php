@@ -8,6 +8,8 @@ if($_SERVER['REQUEST_METHOD'] == "PUT") {
 
     $model = filter_var($data["model"]);
     $price = filter_var($data["price"]);
+	$make = filter_var($data["make"]);
+	$year = filter_var($data["year"]);
 
     //Data access
     $servername = "localhost";
@@ -24,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == "PUT") {
     } 
 
     
-    $sql = "update cars set price = $price WHERE model='$model'";
+    $sql = "update cars set price = $price WHERE model='$model' and make ='$make' and year='$year'";
  
     $result = $conn->query($sql);
 

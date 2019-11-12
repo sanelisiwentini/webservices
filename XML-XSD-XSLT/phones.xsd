@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="phones">
+ <xs:complexType> 
+  <xs:sequence>
+   <xs:element name="samsung">
+    <xs:complexType>
+     <xs:sequence>
+     <xs:element name="model" type="xs:string"/>
+     <xs:element name="year" type="xs:integer"/>
+     <xs:element name="price" type="xs:integer"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="samsung1">
+    <xs:complexType>
+     <xs:sequence>
+     <xs:element name="model" type="xs:string"/>
+     <xs:element name="year" type="xs:integer"/>
+     <xs:element name="price" type="xs:integer"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="samsung2">
+    <xs:complexType>
+     <xs:sequence>
+     <xs:element name="model" type="xs:string"/>
+     <xs:element name="year" type="xs:integer"/>
+     <xs:element name="price" type="xs:integer"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+  </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>

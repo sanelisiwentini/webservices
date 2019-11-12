@@ -5,7 +5,7 @@ error_reporting(0);
 
 $endpoint = 'http://svcs.ebay.com/services/search/FindingService/v1';  // URL to call
 $version = '1.0.0';  
-$appid = 'KEY-HERE';  
+$appid = 'SANELISI-webservi-PRD-cdfed6342-77a0264e';  
 
 $globalid = 'EBAY-US'; 
 

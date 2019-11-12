@@ -1,0 +1,32 @@
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="iso-8859-1" />
+
+
+<div class="chat-popup" id="myForm">
+  <form method ="get"  class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+	<textarea placeholder="Type message.." name="msg" required></textarea>
+    <button type="submit" class="btn" onclick="processMessage()">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+</head>
+<body>
+<script type="text/javascript">
+function processMessage() {
+
+
+	var para = document.createElement("P");
+	var msg=<?php $_GET['msg'] ?>;
+  para.innerHTML = msg;
+  document.getElementById("myForm").appendChild(para);
+}
+</script>
+
+</body>
+</html>

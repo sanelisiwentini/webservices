@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<?php
+error_reporting(0);
+
+echo "Car Sales!!";
+
+$str = "<FORM>
+<INPUT TYPE=\"button\" VALUE=\"Admin\" onclick=\"http://localhost/webservices/admin.php\">
+<INPUT TYPE=\"button\" VALUE=\"Customer\" onclick=\"http://localhost/webservices/botClient.php\">
+</FORM>";
+echo $str;
+?>
+
+<html>
+<body>
+
+
+
+<div class="chat-popup" id="myForm" style = {display="block"}>
+  <form method="get" action="botClient.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+	<ul id="chatList">
+	<li><textarea placeholder="Type message.." name="msg" required></textarea></li>
+	</ul>
+    <!--<textarea placeholder="Type message.." name="msg" required></textarea>-->
+    <button type="submit" class="btn" onclick="processMessage()">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+<script>
+/*function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function processMessage() {
+	var node=document.createElement("LI");
+	var textNode=document.createTextNode($msg);
+	node.appendChild(textNode);
+	
+  document.getElementById("chatList").appendChild(node);
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}*/
+</script>
+
+</body>
+</html>

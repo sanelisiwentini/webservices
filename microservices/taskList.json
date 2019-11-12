@@ -1,0 +1,19 @@
+{
+    "Ghani": {
+        "home": [
+            "Buy a car",
+            "Paint the wall",
+            "Clean up the room"
+        ],
+        "work": [
+            "Create GUI for the new client",
+            "Create JSON"
+        ]
+    },
+    "Wilson": {
+        "school": [
+            "Group study",
+            "Take final exam"
+        ]
+    }
+}

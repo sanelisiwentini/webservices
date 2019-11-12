@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phones>
+ <samsung>
+  <model>Pro</model>
+  <year>2019</year>
+  <price>300</price>
+ </samsung>
+ <samsung1>
+  <model>Pro1</model>
+  <year>2018</year>
+  <price>400</price>
+ </samsung1>
+ <samsung2>
+  <model>Pro2</model>
+  <year>2017</year>
+  <price>500</price>
+ </samsung2>
+ 
+</phones>

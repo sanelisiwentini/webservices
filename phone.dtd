@@ -1,0 +1,7 @@
+<!ELEMENT phone (name,model,year,price)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+		
+		

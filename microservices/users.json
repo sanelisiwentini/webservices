@@ -1,0 +1,23 @@
+{
+    "Ghani": {
+        "id":1,
+        "fname":"Imran",
+		"lname":"Ghani",
+		"email":"ighani@iup.edu",
+        "age":44
+    },
+    "Wilson": {
+        "id":2,
+        "fname":"Wilson",
+		"lname":"Ku",
+		"email":"wilson@example.com",
+        "age":25
+    },
+    "Kim": {
+        "id":3,
+        "fname":"Kim",
+		"lname":"Wu",
+		"email":"kim@example.com",
+        "age":30
+    }
+}

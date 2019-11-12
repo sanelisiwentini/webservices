@@ -1,4 +1,6 @@
-<!-- Build the HTML page with values from the call response -->
+
+
+ Build the HTML page with values from the call response -->
 <html>
 <head>
 <title>Google Books Search Results for </title>
@@ -44,7 +46,7 @@ $priceLimit = $_GET['price'];
 $safequery = urlencode($query);  // Make the query URL-friendly
 
 // Load the call and capture the document returned by eBay API
-$resp = file_get_contents("https://www.googleapis.com/books/v1/volumes?q="."$safequery"."&key=[YOUR_KEY_HERE]");
+$resp = file_get_contents("https://www.googleapis.com/books/v1/volumes?q="."$safequery"."&key=AIzaSyAbozwAwx2HObMIiVQ7sCzWolLLD3lNyPo");
 
 
 

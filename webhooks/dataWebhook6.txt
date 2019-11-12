@@ -1,0 +1,6 @@
+Array
+(
+    [town] => Clymer
+    [subject] => Amber Alert
+    [msg] => Send Help, in the form of snacks. Candy maybe.
+)
